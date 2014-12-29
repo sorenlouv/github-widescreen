@@ -31,7 +31,7 @@
 
   "content_scripts": [
     {
-      "matches": ["https://github.com/*"],
+      "matches": ["https://*.github.com/*"],
       "js": ["content-scripts.js"],
       "css": ["content-styles.css"]
     }
