@@ -1,5 +1,9 @@
 /* A modification of styles by xthexder (https://github.com/xthexder) */
 
+.container {
+    transition: width 0.2s;
+}
+
 .wide .container {
     width: 90% !important;
     min-width: 980px;
