@@ -10,9 +10,10 @@ Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/github
 
 Screenshots
 ----------
-
+Github Widescreen enabled
 ![Widescreen enabled](/images/screenshot-enabled.png)
 
+Github Widescreen disabled
 ![Widescreen disabled](/images/screenshot-disabled.png)
 
 Contributions
