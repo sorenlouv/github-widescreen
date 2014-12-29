@@ -4,7 +4,7 @@
   "name": "Github Widescreen",
   "short_name": "Github Widescreen",
   "description": "With this plugin it is possible to toggle the width of Github",
-  "version": "0.5",
+  "version": "0.6.1",
   "icons": {
       "16": "images/icon-16.png",
       "48": "images/icon-48.png",

@@ -85,3 +85,12 @@
 .wide .repository-content .traffic-graph-stats .summary-stats li {
     width: 50% !important;
 }
+
+/* Gists */
+.wide .gist-with-sidebar .gist-content {
+    width: 100%;
+}
+
+.wide .gist-with-sidebar.with-full-navigation .gist-content {
+    width: calc(100% - 200px);
+}
