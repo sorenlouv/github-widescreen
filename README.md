@@ -18,8 +18,8 @@ Github Widescreen disabled
 
 Contributions
 ----------
-This was inspired by [https://github.com/xthexder/wide-github](Github-wide) by xthexder
+This was inspired by [Github-wide](https://github.com/xthexder/wide-github) by xthexder
 
 Author
 ----------
-Søren Louv-Jansen, [https://twitter.com/sqrendk](sqrendk)
+Søren Louv-Jansen, [sqrendk](https://twitter.com/sqrendk)
