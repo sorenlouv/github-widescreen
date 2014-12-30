@@ -11,6 +11,8 @@ Install from [Chrome Web Store](https://chrome.google.com/webstore/detail/github
 Screenshots
 ----------
 ![Widescreen enabled](/images/animation.gif)
+![Widescreen enabled](http://g.recordit.co/zKHGJ3cHFR.gif)
+
 
 Contributions
 ----------
