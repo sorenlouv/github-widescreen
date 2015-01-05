@@ -6,22 +6,18 @@ function getState(callback){
   });
 }
 
-function updateCssClass(state){
+function toggleCssClass(state){
   var WIDE_CSS_CLASS = 'wide';
   var body = document.querySelector('body');
-
-  if (state) {
-    body.classList.add(WIDE_CSS_CLASS);
-  } else {
-    body.classList.remove(WIDE_CSS_CLASS);
-  }
+  var toggle = state ? body.classList.add : body.classList.remove;
+  toggle(WIDE_CSS_CLASS);
 }
 
 chrome.storage.onChanged.addListener(function (data) {
   var state = data.state.newValue;
-  updateCssClass(state);
+  toggleCssClass(state);
 });
 
 getState(function(state) {
-  updateCssClass(state);
+  toggleCssClass(state);
 });
