@@ -10,7 +10,7 @@ function toggleCssClass(state){
   var WIDE_CSS_CLASS = 'wide';
   var body = document.querySelector('body');
   var toggle = state ? body.classList.add : body.classList.remove;
-  toggle(WIDE_CSS_CLASS);
+  toggle.call(body.classList, WIDE_CSS_CLASS);
 }
 
 chrome.storage.onChanged.addListener(function (data) {
