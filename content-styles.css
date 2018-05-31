@@ -1,100 +1,98 @@
 /* A modification of styles by xthexder (https://github.com/xthexder) */
 
 .container {
-    transition: width 0.2s;
+  transition: width 0.2s;
 }
 
 .wide .container {
-    width: 90% !important;
-    min-width: 980px;
+  width: 90% !important;
+  min-width: 980px;
 }
 
 .wide .repository-content {
-    width: 100% !important;
-    margin-right: auto !important;
+  width: 100% !important;
+  margin-right: auto !important;
 }
 
 .wide .repository-with-sidebar {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 .wide .repository-with-sidebar.with-full-navigation {
-    margin-left: 190px;
+  margin-left: 190px;
 }
 
 .wide .repository-with-sidebar .repository-content {
-    margin-left: -60px;
+  margin-left: -60px;
 }
 
 .wide .repository-with-sidebar.with-full-navigation .repository-content {
-    margin-left: -190px;
+  margin-left: -190px;
 }
 
 .wide .split-diff .repository-with-sidebar {
-    padding-right: 0px !important;
+  padding-right: 0px !important;
 }
 
 .wide .split-diff .repository-with-sidebar .repository-sidebar {
-    margin-right: 0px !important;
+  margin-right: 0px !important;
 }
 
 .wide .repository-content .discussion-timeline {
-    margin-right: -220px;
-    padding-right: 220px;
-    width: 100% !important;
+  width: calc(100% - 220px) !important;
 }
 
 .wide .repository-content .discussion-timeline .timeline-new-comment {
-    max-width: 100% !important;
+  max-width: 100% !important;
 }
 
 .wide .repository-content .inline-comments .comment-holder {
-    max-width: none !important;
+  max-width: none !important;
 }
 
 .wide .repository-content .inline-comments .inline-comment-form-container {
-    max-width: none !important;
+  max-width: none !important;
 }
 
 .wide .repository-content .inline-comments .inline-comment-form {
-    max-width: none !important;
+  max-width: none !important;
 }
 
 .wide .repository-content .boxed-group-inner .summary-stats {
-    display: table;
-    width: 100%;
+  display: table;
+  width: 100%;
 }
 
 .wide .repository-content .boxed-group-inner .summary-stats li {
-    width: 25% !important;
+  width: 25% !important;
 }
 
 .wide .repository-content .authors-and-code .section {
-    width: 50%;
+  width: 50%;
 }
 
 .wide .repository-content .authors-and-code .section svg {
-    width: 100%;
+  width: 100%;
 }
 
 .wide .repository-content .capped-card {
-    margin: 10px 10px 0 0 !important;
+  margin: 10px 10px 0 0 !important;
 }
 
 .wide .repository-content .traffic-graph-stats .summary-stats {
-    display: table;
-    width: 100%;
+  display: table;
+  width: 100%;
 }
 
 .wide .repository-content .traffic-graph-stats .summary-stats li {
-    width: 50% !important;
+  width: 50% !important;
 }
 
 /* Gists */
 .wide .gist-with-sidebar .gist-content {
-    width: 100%;
+  width: 100%;
 }
 
 .wide .gist-with-sidebar.with-full-navigation .gist-content {
-    width: calc(100% - 200px);
+  width: calc(100% - 200px);
 }
