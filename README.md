@@ -1,7 +1,7 @@
-Github Widescreen
+Widescreen for GitHub
 ===========
 
-Extension to Google Chrome to toggle the width of Github
+Extension to Google Chrome to toggle the width of Github.
 
 Installation
 ----------
