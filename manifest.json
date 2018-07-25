@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
 
-  "name": "Github Widescreen",
-  "short_name": "Github Widescreen",
+  "name": "Widescreen for GitHub",
+  "short_name": "Widescreen for Github",
   "description":
-    "With this plugin it is possible to toggle the width of Github",
+    "Toggle the width of Github with a click",
   "version": "0.7.1",
   "icons": {
     "16": "images/icon-16.png",
