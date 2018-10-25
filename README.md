@@ -12,10 +12,6 @@ Screenshots
 ----------
 ![Widescreen enabled](/images/animation.gif)
 
-Contributions
-----------
-This was inspired by [Github-wide](https://github.com/xthexder/wide-github) by xthexder
-
 Author
 ----------
-Søren Louv-Jansen, [sqrendk](https://twitter.com/sqrendk)
+Søren Louv-Jansen, [sorenlouv](https://twitter.com/sorenlouv)
