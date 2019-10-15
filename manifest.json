@@ -3,9 +3,8 @@
 
   "name": "Widescreen for GitHub",
   "short_name": "Widescreen for Github",
-  "description":
-    "Toggle the width of GitHub with a click",
-  "version": "0.7.1",
+  "description": "Toggle the width of GitHub with a click",
+  "version": "0.7.3",
   "icons": {
     "16": "images/icon-16.png",
     "48": "images/icon-48.png",
