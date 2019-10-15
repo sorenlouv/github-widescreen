@@ -9,6 +9,10 @@
   min-width: 980px;
 }
 
+.wide .container-lg {
+  max-width: none !important;
+}
+
 .wide .repository-content {
   width: 100% !important;
   margin-right: auto !important;
