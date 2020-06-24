@@ -101,6 +101,6 @@
   width: calc(100% - 200px);
 }
 
-.container-xl.clearfix.new-discussion-timeline.px-3.px-md-4.px-lg-5 {
+.wide .container-xl.clearfix.new-discussion-timeline.px-3.px-md-4.px-lg-5 {
     max-width: 100%;
 }
