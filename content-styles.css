@@ -100,3 +100,7 @@
 .wide .gist-with-sidebar.with-full-navigation .gist-content {
   width: calc(100% - 200px);
 }
+
+.wide .container-xl.clearfix.new-discussion-timeline.px-3.px-md-4.px-lg-5 {
+    max-width: 100%;
+}
