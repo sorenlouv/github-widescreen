@@ -12,6 +12,13 @@ Screenshots
 ----------
 ![Widescreen enabled](/images/animation.gif)
 
+Publishing
+----------
+1. Bump version in manifest.json
+2. `zip -r widescreen-package.zip .`
+3. Go to [Developer Dashboard](https://chrome.google.com/u/1/webstore/devconsole/)
+
 Author
 ----------
 Søren Louv-Jansen, [sorenlouv](https://twitter.com/sorenlouv)
+
