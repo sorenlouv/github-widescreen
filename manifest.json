@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "Widescreen for GitHub",
   "short_name": "Widescreen for Github",
@@ -27,7 +27,7 @@
   "content_scripts": [
     {
       "run_at": "document_end",
-      "matches": ["https://*.github.com/*"],
+      "matches": ["https://*.github.*.com/*"],
       "js": ["content-scripts.js"],
       "css": ["content-styles.css"]
     }
