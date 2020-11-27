@@ -92,6 +92,10 @@
   width: 50% !important;
 }
 
+.wide #js-repo-pjax-container > div.bg-gray-light.pt-3.hide-full-screen.mb-5 > div.d-flex.mb-3.px-3.px-md-4.px-lg-5, .wide #js-repo-pjax-container > div.bg-gray-light.pt-3.hide-full-screen.mb-5 > nav {
+  padding-left: 0 !important;
+}
+
 /* Gists */
 .wide .gist-with-sidebar .gist-content {
   width: 100%;
