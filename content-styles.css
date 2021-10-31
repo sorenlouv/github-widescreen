@@ -13,6 +13,10 @@
   max-width: none !important;
 }
 
+.wide .js-repo-nav, .wide #js-repo-pjax-container > div > div {
+  padding-left: 0 !important;
+}
+
 .wide .repository-content {
   width: 100% !important;
   margin-right: auto !important;
